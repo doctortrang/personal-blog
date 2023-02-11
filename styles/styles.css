@@ -95,6 +95,7 @@ section {
     #greeting {
         flex-direction: column;
         justify-content: center;
+        padding: 0;
     }
     #quotation h2 {
         font-size: 2rem;
