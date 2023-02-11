@@ -1,0 +1,96 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color: rgb(251, 248, 255);
+}
+header {
+    background-color: rgb(245, 238, 255);
+    border-bottom: 0.2rem solid rgba(167, 123, 248, 0.2);
+    box-shadow: 2px 2px 4px rgba(167, 123, 248, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 6rem;
+    width: 100%;
+}
+#logo img {
+    width: 6rem;
+    height: 6rem;
+}
+#logo a {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-family: 'Oleo Script', cursive;
+    font-size: 3.5rem;
+    margin: 0 1.5rem;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    margin: 0 1.5rem;
+}
+header nav a {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+header nav a:hover {
+    color: black;
+    background-color: rgb(228, 199, 255);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+footer {
+    font-size: 1.2rem;
+    margin: 0;
+    bottom: 0;
+    padding: 1rem 1rem;
+    height: 12rem;
+    background-color: rgb(200, 182, 218);
+}
+footer p {
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem
+}
+@media (max-width: 48rem) {
+    header {
+        height: 4rem;
+        font-size: 1rem;
+    }
+    #logo a {
+        font-size: 2.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+        height: 8rem;
+    }
+}
