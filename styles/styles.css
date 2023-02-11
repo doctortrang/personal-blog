@@ -97,6 +97,9 @@ section {
         justify-content: center;
         padding: 0;
     }
+    #quotation {
+        padding: 0;
+    }
     #quotation h2 {
         font-size: 2rem;
     }
