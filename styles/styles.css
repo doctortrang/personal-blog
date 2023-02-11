@@ -92,6 +92,10 @@ section {
     color: rgb(163, 88, 212);
 }
 @media (max-width: 48rem) {
+    #greeting {
+        flex-direction: column;
+        justify-content: center;
+    }
     #quotation h2 {
         font-size: 2rem;
     }
