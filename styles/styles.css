@@ -83,14 +83,6 @@ section {
     font-size: 2rem;
     color: rgb(201, 123, 253);
 }
-#more a {
-    text-decoration: none;
-    font-size: 3.5rem;
-    color: rgb(95, 71, 110);
-}
-#more a:hover {
-    color: rgb(163, 88, 212);
-}
 @media (max-width: 48rem) {
     #greeting {
         flex-direction: column;
