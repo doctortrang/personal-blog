@@ -4,7 +4,6 @@ main {
 #greeting {
     width: 100%;
     margin: 1rem auto;
-    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,6 +19,12 @@ main {
 }
 #quotation p {
     font-size: 1.5rem;
+}
+#animation img {
+    height: 25rem;
+    width: 25rem;
+    margin: 0;
+    right: 0;
 }
 .top-images {
     margin: 0 auto;
@@ -93,39 +98,43 @@ section {
         padding: 0;
     }
     #quotation h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #quotation p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     #animation img {
         width: 10rem;
         height: 10rem;
         padding: 0 2rem;
     }
+    .top-images {
+        width: 10rem;
+        height: 10rem;
+    }
     .highlight h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     #added-block {
         flex-direction: column;
     }
     #highlight-section {
-        width: 28rem;
+        width: 20rem;
     }
     .highlight h2 {
         font-size: 1rem;
     }
     .highlight-content {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     #highlight-section img {
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
     }
     #explore a {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     #more a {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
